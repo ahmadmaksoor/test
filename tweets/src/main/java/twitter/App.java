@@ -27,10 +27,10 @@ public class App{
 	public  App() throws TwitterException {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		.setOAuthConsumerKey("AzgK1voXeIWmBFLKa6uMF13C1")
-		.setOAuthConsumerSecret("PY1OJwUGOsynIc1zCm8C7f07Zok3Dr7l6jsbH7m7ImBB0dvljb")
-		.setOAuthAccessToken("1305467268038635520-mwc0rY3Lf2Zam7mlc049Kp4ZEr011o")
-		.setOAuthAccessTokenSecret("v8XEwErX1g2cjEP55v03aZBtLuqF1lHYRETg5Dfn2iqrZ")
+		.setOAuthConsumerKey("AzgK1v-secret")
+		.setOAuthConsumerSecret("secret-3Dr7l6jsbH7m7ImBB0dvljb")
+		.setOAuthAccessToken("secret-c0rY3Lf2Zam7mlc049Kp4ZEr011o")
+		.setOAuthAccessTokenSecret("secret-tLuqF1lHYRETg5Dfn2iqrZ")
 		.setTweetModeExtended(true);
 
 
